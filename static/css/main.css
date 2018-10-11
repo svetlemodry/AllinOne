@@ -101,8 +101,20 @@ a:active .active-color  {
 } */
 
 
-.post-main-wrapper {
-  margin: 3rem 2rem 5rem;
+@media (min-width: 800px){
+    .post-main-wrapper {
+        margin: 3rem 2rem 5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .post-main-wrapper {
+        margin: 1rem 1rem 1rem;
+    }
+    .px-5 {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
 }
 
 .post-wrapper {
