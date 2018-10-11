@@ -111,9 +111,23 @@ a:active .active-color  {
     .post-main-wrapper {
         margin: 1rem 1rem 1rem;
     }
+    .single-post {
+        margin-top: 0%!important;
+        margin-right: 0%!important;
+        margin-bottom: 0%!important;
+        margin-left: 0!important;
+        padding-right: 3%!important;
+        padding-bottom: 0!important;
+        padding-left: 3%!important;
+    }
     .px-5 {
         padding-left: 0!important;
         padding-right: 0!important;
+    }
+    .col-md-10 {
+        padding-left: 0px;
+        padding-right: 0px;
+
     }
 }
 
