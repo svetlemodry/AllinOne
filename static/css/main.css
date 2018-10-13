@@ -469,7 +469,16 @@ Markdown
   -webkit-box-shadow: none;
 }
 
-
+.markdown img[src*='#floatleft'] {
+    float: left;
+}
+.markdown img[src*='#floatright'] {
+    float: right;
+}
+.markdown img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
 
 /*
  
