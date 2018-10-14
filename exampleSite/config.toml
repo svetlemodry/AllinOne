@@ -60,7 +60,7 @@ pygmentsuseclasses         = true
   showpostdate             = true                         # if false, don't show posts publish date
   dateform                 = "Jan 2, 2006"
   dateformfull             = "2006-01-02  Monday  15:04:05"
-  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+  showreadtime             = true                          # if false, don't show "<x> minutes read" in posts
 
   # slides
   slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)

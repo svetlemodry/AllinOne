@@ -23,7 +23,7 @@
         {{ end }}
     {{ end }}
 
-    {{ if not .Site.Params.noshowreadtime }}
+    {{ if .Site.Params.showreadtime }}
       <li class="middot"></li>
       <li>{{ i18n "readingTime" .ReadingTime }}</li>
     {{ end }}
