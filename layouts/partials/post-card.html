@@ -4,10 +4,12 @@
     <div class="post-header text-center">
       <div class="px-4 post-heading">{{ .Title }}</div>
       <ul class="post-meta li-x mt-1">
-        {{ if and .Site.Params.dateformfull .Site.Params.dateform }}
-          <li>{{ .Date.Format .Site.Params.dateform }}</li>
-        {{ else }}
-          <li>{{ .Date.Format "Jan 2, 2006" }}</li>
+        {{ if .Site.Params.showpostdate }}
+            {{ if and .Site.Params.dateformfull .Site.Params.dateform }}
+            <li>{{ .Date.Format .Site.Params.dateform }}</li>
+            {{ else }}
+            <li>{{ .Date.Format "Jan 2, 2006" }}</li>
+            {{ end }}
         {{ end }}
     
         {{ if not .Site.Params.noshowreadtime }}
